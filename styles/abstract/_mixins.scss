@@ -1,0 +1,29 @@
+@use './variables';
+
+@mixin responsive($breakpoint) {
+    @if($breakpoint == variables.$sm) {
+        @media screen and (min-width: variables.$sm) {
+            @content
+        }
+    }
+    @if($breakpoint == variables.$md){
+        @media screen and (min-width: variables.$md) {
+            @content
+        }
+    }
+    @if($breakpoint == variables.$lg) {
+        @media screen and (min-width: variables.$lg) {
+            @content
+        }
+    }
+    @if($breakpoint == variables.$xl) {
+        @media screen and (min-width: variables.$xl) {
+            @content
+        }
+    }
+    @if($breakpoint == variables.$xxl) {
+        @media screen and (min-width: variables.$xxl) {
+            @content
+        }
+    }
+}

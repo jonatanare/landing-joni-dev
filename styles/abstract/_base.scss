@@ -1,0 +1,15 @@
+:root {
+    /* Your default theme */
+    --background: white;
+    --foreground: black;
+  }
+  
+  [data-theme='dark'] {
+    --background: black;
+    --foreground: white;
+  }
+  
+  nav#navbar + main {
+    padding-top: calc(1.5rem + 56px);
+    margin-bottom: 1.5rem;
+  }

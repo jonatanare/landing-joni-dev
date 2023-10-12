@@ -1,0 +1,19 @@
+@use '../../abstract/variables';
+@use  '../../abstract/mixins';
+
+.bg-hero-yellow {
+    background-image: url(../../../public/assets/bg-yellow-sm.webp);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 110%;
+
+    @include mixins.responsive(variables.$md) {
+        background-image: url(../../../public/assets/bg-yellow-large.webp);
+        background-position: center bottom;
+        max-width: 973px;
+    }
+}
+  
+.img-jonatan {
+    margin-top: 71px;
+}

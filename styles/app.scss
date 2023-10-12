@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './abstract/variables';
+@import './abstract/base';
+@import './/abstract/mixins';
+
+// Home page
+@import './pages/home/hero';
