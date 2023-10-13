@@ -142,26 +142,25 @@ export default function Nav () {
                 {/* <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" --> */}
                 <a
                   href='#'
-                  className='bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium'
-                  aria-current='page'
+                  className='text-gray-800 rounded-md px-3 py-2 text-sm font-medium dark:text-white'
                 >
-                  Dashboard
+                  Home
                 </a>
                 <a
                   href='#'
-                  className='text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium'
+                  className='text-gray-800 hover:bg-gray-800 hover:text-white rounded-md px-3 py-2 text-sm font-medium dark:text-white'
                 >
-                  Team
+                  About
                 </a>
                 <a
                   href='#'
-                  className='text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium'
+                  className='text-gray-800 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium dark:text-white'
                 >
                   Projects
                 </a>
                 <a
                   href='#'
-                  className='text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium'
+                  className='text-gray-800 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium dark:text-white'
                 >
                   Calendar
                 </a>
